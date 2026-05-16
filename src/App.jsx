@@ -120,7 +120,7 @@ const firebaseConfig = {
 const app = initializeApp(firebaseConfig);
 const auth = getAuth(app);
 const db = getFirestore(app);
-const APP_ID = 'Jeil-english-Seongdong-grade1S';
+const APP_ID = 'english-Chokiho';
 
 // --- Constants ---
 const DIFFICULTIES = ['하', '중하', '중', '중상', '상', '극상'];
